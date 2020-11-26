@@ -1,13 +1,12 @@
 import './App.css';
 import Dashboard from "./pages/Dashboard";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <Dashboard/>
-      <footer>
-          <a href="" className="App-link">About RPi Room Monitor &copy; 2020</a>
-      </footer>
+      <Footer/>
     </div>
   );
 }
