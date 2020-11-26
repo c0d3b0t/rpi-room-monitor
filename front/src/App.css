@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -7,32 +9,73 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 0 20px;
+}
+
+.App-contents {
+  display: flex;
+}
+
+.App-player {
+  width: 80%;
+  height: 600px;
+}
+
+.App-sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+
+.App-sidebar span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.App-sidebar .temperature {
+  color: #ff6a6a;
+}
+
+.App-sidebar .humidity {
+  color: #bbbbff;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App-btn {
+  font-size: calc(5px + 2vmin);
+  width: 200px;
+  max-width: 200px;
+  padding: 10px;
+  margin-bottom: 5px;
+  color: #efefef;
+  background: none;
+}
+
+footer {
+  padding: 25px;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+  .App-contents {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .App-sidebar {
+    width: 100%;
+  }
+
+  .App-player {
+    width: 100%;
+    height: 385px;
   }
 }
