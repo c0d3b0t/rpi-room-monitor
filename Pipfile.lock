@@ -1,0 +1,44 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "b7a1e83efa98e6b8c88a6f299066d9f6a93c5235c05fd60393588b55bfb800e5"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "adafruit-dht": {
+            "hashes": [
+                "sha256:e927f2232eff5335cb9d8a2cca6dcad4625e61f205b12e31ef04198ea6dec830"
+            ],
+            "index": "pypi",
+            "version": "==1.4.0"
+        },
+        "board": {
+            "hashes": [
+                "sha256:b97c986d0190a2a5181a7fe28959cd8515520b87f672796e21e1b0d32cc63e2f",
+                "sha256:cd718c3322a126d86455e24ae0cebb59a567cbdbaf03696391dccf88c8f456d6"
+            ],
+            "index": "pypi",
+            "version": "==1.0"
+        },
+        "wheel": {
+            "hashes": [
+                "sha256:906864fb722c0ab5f2f9c35b2c65e3af3c009402c108a709c0aca27bc2c9187b",
+                "sha256:aaef9b8c36db72f8bf7f1e54f85f875c4d466819940863ca0b3f3f77f0a1646f"
+            ],
+            "index": "pypi",
+            "version": "==0.36.1"
+        }
+    },
+    "develop": {}
+}
